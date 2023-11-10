@@ -1,0 +1,23 @@
+.product-container {
+    display: flex   ;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center ;
+
+    margin-top: 4rem;
+
+    .btn-product {
+        width: 20rem;
+        height: 2.5rem;
+        
+        border-radius: 2rem;
+        border: 1px solid #fff;
+        
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            background-color: aliceblue;
+        }
+    }
+}
