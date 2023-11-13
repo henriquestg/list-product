@@ -1,0 +1,29 @@
+.itens-container { 
+    display: flex   ;
+    align-items: center;
+    padding: 1rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: beige;
+
+     p {
+        font-size: 0.8rem;
+
+     }
+
+     .number-stock {
+        display: flex;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffff;
+
+        margin-right: 0.5rem;
+
+        p {
+            font-weight: bold;
+        }
+     }
+}
