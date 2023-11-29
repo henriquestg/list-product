@@ -8,7 +8,8 @@ export default function Home() {
     <main className='container'>
       <Navbar />
       <Product />
-      <ListProduct />
+      <ListProduct 
+      />
     </main>
   )
 }
